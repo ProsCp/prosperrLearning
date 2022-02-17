@@ -1,0 +1,33 @@
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+    overflow: hidden;
+}
+.slick-list {
+    margin: 0 -10px;
+    }
+    
+    .slick-slide {
+    margin: 0px 0px;
+    opacity:0;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: opacity;
+    transition-timing-function: ease-out;
+    }
+    
+    .slick-slide.slick-active {
+    opacity:1;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+    }
+    .AdvisorIMG{
+        width: "268"; height:"182";border-radius: "10" ;
+    }
