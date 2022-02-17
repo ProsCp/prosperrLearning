@@ -13,8 +13,8 @@ function App() {
    
   return (
     <>
-   <TopArticleBox/>
-   <AdvisorProfile/>
+   {/* <TopArticleBox/>
+   <AdvisorProfile/> */}
    {/* <PatternValidation/> */}
    {/* <Fetch/> */}
    <SliderBox/>
