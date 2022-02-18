@@ -30,12 +30,14 @@
 }
 .SliderDiv {
   margin: 0 0px;
-  padding: 20px 72px 40px 72px;
+  /* padding: 20px 72px 40px 72px; */
   border: 1px solid red;
   box-sizing: border-box;
 }
 .slick-list {
-  margin: 0 0px;
+  margin: 0 -0px;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
 }
 
 .slick-slide {
@@ -45,12 +47,6 @@
   transition-duration: 0.2s;
   transition-property: opacity;
   transition-timing-function: ease-out;
-  max-width: 298px;
-  max-height: 320px;
-  /* border: 2px solid black; */
-  box-sizing: border-box;
-  align-items: center;
-  text-align: center;
 }
 
 .slick-slide.slick-active {
@@ -77,6 +73,8 @@
   min-width: 288px;
 }
 .OuterBox {
-  padding: 0 72px;
+  margin: 0 0px;
+  padding: 20px 72px 40px 72px;
   border: 1px solid red;
+  box-sizing: border-box;
 }

@@ -1,10 +1,9 @@
 import React from "react";
 
- const Button = ({prev,func,children}) => {
+const Button = ({ prev, func, children }) => {
   return (
     <div>
-      
-        <div className= { prev} onClick={() =>  func()}>
+      <div className={prev} onClick={() => func()}>
         {children}
       </div>
     </div>

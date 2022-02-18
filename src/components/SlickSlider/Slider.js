@@ -11,6 +11,7 @@ export default function SliderBox() {
   const SliderRef = useRef(null);
   const SliderPrevFn = () => SliderRef.current.slickPrev();
   const SliderNextFn = () => SliderRef.current.slickNext();
+
   return (
     <>
       <div className=" topHeading">
@@ -24,24 +25,27 @@ export default function SliderBox() {
           </Button>
         </div>
       </div>
-
-      <div className="SliderDiv">
-        <Slider
-          ref={SliderRef}
-          slidesToShow={4}
-          centerMode={true}
-          centerPadding={12}
-        >
-          {Array(10)
-            .fill("")
-            .map(() => (
-              <div className="CC111">
-                <div className="AdvisorCard">
-                  <img className="AdvisorIMG" src={aa} alt="" /> chandrapal rao
+      <div className="OuterBox">
+        <div className="SliderDiv">
+          <Slider
+            ref={SliderRef}
+            slidesToShow={4}
+            centerMode={true}
+            centerPadding={-6}
+            // slidesToScroll={4}
+          >
+            {Array(10)
+              .fill("")
+              .map(() => (
+                <div className="CC111">
+                  <div className="AdvisorCard">
+                    <img className="AdvisorIMG" src={aa} alt="" /> chandrapal
+                    rao
+                  </div>
                 </div>
-              </div>
-            ))}
-        </Slider>
+              ))}
+          </Slider>
+        </div>
       </div>
     </>
   );
