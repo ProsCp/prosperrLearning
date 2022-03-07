@@ -85,13 +85,33 @@ export default function Fetch() {
             value={key === "set" ? Future[0].id : "put a valid email id"}
           />
           <label htmlFor="name"> name: </label>
-          <Input type="text" name="name" id=""    value={key === "set" ?  Future[0].name : "put a valid email id"} />
+          <Input
+            type="text"
+            name="name"
+            id=""
+            value={key === "set" ? Future[0].name : "put a valid email id"}
+          />
           <label htmlFor="phone"> phone: </label>
-          <Input type="text"  name="phone" id=""  value={key === "set" ? Future[0].phone : "put a valid email id"} />
+          <Input
+            type="text"
+            name="phone"
+            id=""
+            value={key === "set" ? Future[0].phone : "put a valid email id"}
+          />
           <label htmlFor="username"> username: </label>
-          <Input type="text"  name="username" id=""  value={key === "set" ? Future[0].username : "put a valid email id"} />
+          <Input
+            type="text"
+            name="username"
+            id=""
+            value={key === "set" ? Future[0].username : "put a valid email id"}
+          />
           <label htmlFor="website"> website: </label>
-          <Input type="text"  name="website" id=""   value={key === "set" ? Future[0].website : "put a valid email id"} />
+          <Input
+            type="text"
+            name="website"
+            id=""
+            value={key === "set" ? Future[0].website : "put a valid email id"}
+          />
         </form>
         console.log({text})<h1></h1>
       </div>
